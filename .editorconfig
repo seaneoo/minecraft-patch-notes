@@ -1,0 +1,39 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+max_line_length = 120
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.gradle]
+indent_style = tab
+
+[*.{kt,kts}]
+indent_style = tab
+ij_kotlin_blank_lines_after_class_header = 1
+ij_kotlin_method_call_chain_wrap = on_every_item
+ij_kotlin_keep_first_column_comment = true
+
+[*.properties]
+indent_style = space
+indent_size = 2
+ij_properties_keep_blank_lines = true
+ij_properties_spaces_around_key_value_delimiter = true
+
+[*.html]
+ij_html_enforce_quotes = true
+ij_html_quote_style = double
+
+[*.css]
+ij_css_value_alignment = on_value
+ij_css_use_double_quotes = true
+ij_css_enforce_quotes_on_format = true
+ij_css_hex_color_long_format = true
+ij_css_hex_color_upper_case = true
+ij_css_space_before_opening_brace = true
